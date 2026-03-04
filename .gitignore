@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Private/local utility not for publishing
+interpolate_output.py
+
+# Large/generated project outputs
+results/*
+!results/output_ex.txt
+*.txt
+!README.md
+!requirements.txt
+
+# Keep sample figures only if intentionally added
+# Figures/
