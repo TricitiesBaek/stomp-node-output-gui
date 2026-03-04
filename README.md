@@ -1,6 +1,6 @@
 # STOMP Node Output GUI
 
-Python GUI tool for visualizing STOMP simulation node output data.
+Python GUI tool for visualizing STOMP simulation node output data (https://stomp-userguide.pnnl.gov/mode_specific_guides/all_modes/syntax/output_cntrl_syntax.html)
 
 ## Features
 
@@ -16,10 +16,10 @@ Python GUI tool for visualizing STOMP simulation node output data.
 ## Screenshots
 
 ### Main Interface
-![Figure 1](docs/images/Figure1.png)
-
-### GUI with Data Loaded
 ![GUI Screenshot](docs/images/Screenshot%20GUI.png)
+
+### GUI with Data Plotted
+![Figure 1](docs/images/Figure1.png)
 
 ## Quick Start
 
@@ -35,24 +35,12 @@ Python GUI tool for visualizing STOMP simulation node output data.
 
 3. **Load sample file:**
    ```
-   results/output_ex.txt
+   results/output_ex
    ```
 
 4. **Select nodes and variables** to visualize
 
-## Case Study: Frio Formation Analysis
-
-**Input:** STOMP simulation output for CO₂ storage in Frio Formation
-- **File size:** 612,000 rows, 15.45 MB
-- **Reference nodes:** 3 monitoring wells
-- **Variables inspected:** 
-  - Pressure (PG, PL) — tracking plume migration
-  - Saturation (SG) — water/gas interface
-  - Temperature (T) — thermodynamic changes
-- **Time range:** ~500 days of simulation
-- **Insight:** Pressure buildup patterns confirmed plume behavior consistent with geological model predictions
-
-This tool enabled rapid visualization of multiple variables across monitoring points without manual data post-processing.
+This tool enabled rapid visualization of multiple variables across monitoring points without manual data post-processing with STOMP simulation (https://stomp-userguide.pnnl.gov/).  
 
 ## Requirements
 
