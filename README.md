@@ -1,6 +1,8 @@
 # STOMP Node Output GUI
 
-Python GUI tool for visualizing STOMP simulation node output data (https://stomp-userguide.pnnl.gov/mode_specific_guides/all_modes/syntax/output_cntrl_syntax.html)
+Python GUI tool for visualizing STOMP simulation node output data (https://stomp-userguide.pnnl.gov/mode_specific_guides/all_modes/syntax/output_cntrl_syntax.html). 
+
+This tool enabled rapid visualization of multiple variables across monitoring points without manual data post-processing with STOMP simulation (https://stomp-userguide.pnnl.gov/).  
 
 ## Features
 
@@ -19,7 +21,7 @@ Python GUI tool for visualizing STOMP simulation node output data (https://stomp
 ![GUI Screenshot](docs/images/Screenshot%20GUI.png)
 
 ### GUI with Data Plotted
-![Figure 1](docs/images/Figure1.png)
+![Figure 1](docs/images/Screenshot%Figure1.png)
 
 ## Quick Start
 
@@ -39,8 +41,6 @@ Python GUI tool for visualizing STOMP simulation node output data (https://stomp
    ```
 
 4. **Select nodes and variables** to visualize
-
-This tool enabled rapid visualization of multiple variables across monitoring points without manual data post-processing with STOMP simulation (https://stomp-userguide.pnnl.gov/).  
 
 ## Requirements
 
