@@ -1,6 +1,6 @@
 # STOMP Node Output GUI
 
-Python GUI tool for visualizing STOMP simulation node output data 
+Python GUI tool for visualizing STOMP reservoir simulation node output data 
 
 This tool enabled rapid visualization of multiple variables across monitoring points without manual data post-processing with STOMP simulation (https://stomp-userguide.pnnl.gov/).  
 
